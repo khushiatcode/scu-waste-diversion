@@ -219,8 +219,8 @@
             <div id="seasonalPatterns"></div>
             <div class="mt-4">
                 <p class="text-sm text-gray-600">This visualization reveals that waste generation during summer break months (May-August) is significantly higher due to multiple factors:<br>
-                1) student move-out periods when large amounts of unwanted items are discarded. <br>
-                2) extensive renovation and maintenance work conducted by the university while campus is less occupied. <br>
+                1) student move-out periods, when large amounts of unwanted items are discarded. <br>
+                2) extensive renovation and maintenance work conducted by the university while the campus is less occupied. <br>
                 3) summer camps and programs that generate additional waste streams. <br>
                 4) bookstore operations that involve processing returned textbooks and stocking new inventory for the upcoming academic year.</p>
             </div>
@@ -243,29 +243,11 @@
                 </div>
                 <div>
                     <h3 class="font-bold text-lg text-green-800">2016: Enhanced Composting Programs</h3>
-                    <p>Specialized collection for foodscraps and yardwaste began, with detailed tracking of each stream. The diversion rate reached 76.4%.</p>
+                    <p>Specialized collection for food scraps and yard waste began, with detailed tracking of each stream. The diversion rate reached 76.4%.</p>
                 </div>
             </div>
         </section>
 
-
-<!--         <section class="card">
-            <h2 class="title text-2xl">About This Visualization</h2>
-            <p class="mb-2">This interactive dashboard was created using D3.js to visualize Santa Clara University's waste characterization data from 2005 to 2023. The visualization tells the story of SCU's journey toward sustainability through waste diversion practices.</p>
-            <p class="mb-2">The primary visual elements used include:</p>
-            <ul class="list-disc ml-6 mb-4">
-                <li><span class="font-semibold">Stacked Area Chart:</span> Shows the composition of waste streams over time, allowing viewers to see both absolute amounts and relative proportions.</li>
-                <li><span class="font-semibold">Line Chart:</span> Tracks the diversion rate progress, highlighting the impact of key initiatives.</li>
-                <li><span class="font-semibold">Heatmap:</span> Illustrates seasonal patterns in waste generation across different categories.</li>
-            </ul>
-            <p class="mb-2">Color choices were made to reflect the nature of each waste stream:</p>
-            <ul class="list-disc ml-6">
-                <li><span class="font-semibold">Green (Compost):</span> Represents organic material and growth, connecting to sustainability and environmental renewal.</li>
-                <li><span class="font-semibold">Blue (Recycling):</span> The traditional color associated with recycling programs.</li>
-                <li><span class="font-semibold">Brown (Landfill):</span> Earthy tones that reflect the nature of landfill waste.</li>
-                <li><span class="font-semibold">Purple (Reuse):</span> A distinctive color to highlight this newer, innovative category focused on extending product lifespans.</li>
-            </ul>
-        </section> -->
     </div>
 
     <script>
@@ -807,8 +789,6 @@
                 .attr("y", -margin.left + 20)
                 .text("Diversion Rate (%)");
 
-            // Removed the 90% "Zero Waste" target line as requested
-
             // Line generator
             const line = d3.line()
                 .x(d => x(d.year))
@@ -1079,5 +1059,11 @@
             });
         });
     </script>
+
+      <footer>
+    <small>
+      Copyright © 2025 khushiatcode
+    </small>
+  </footer>
 </body>
 </html>
